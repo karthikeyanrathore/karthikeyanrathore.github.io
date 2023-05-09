@@ -1,0 +1,3 @@
+# https://ddewaele.github.io/running-jekyll-in-docker/
+docker run newblog
+
