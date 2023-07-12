@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "IoT stuff"
-date:   2023-05-08 13:29:48 -0500
+date:   2023-07-02 13:29:48 -0500
 categories: networking
 ---
 
