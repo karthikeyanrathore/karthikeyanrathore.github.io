@@ -25,3 +25,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# https://stackoverflow.com/questions/45003852/how-to-open-urls-in-new-tab-in-config-yml-of-jekyll-github-pages-site
+gem 'jekyll-target-blank'
+
