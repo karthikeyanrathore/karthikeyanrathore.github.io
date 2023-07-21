@@ -28,3 +28,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # https://stackoverflow.com/questions/45003852/how-to-open-urls-in-new-tab-in-config-yml-of-jekyll-github-pages-site
 gem 'jekyll-target-blank'
 
+# https://victor2code.github.io/blog/2019/07/04/jekyll-github-pages-appear-on-Google.html
+gem 'jekyll-sitemap'
