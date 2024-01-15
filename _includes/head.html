@@ -20,4 +20,9 @@
   <meta name="google-site-verification" content="7fTB09q2Co_TLFngIVMbqLVQI1F_l-sGs7gxLGDt4yw" />
   {%- include custom-head.html -%}
   
+  <!-- https://jojozhuang.github.io/tutorial/jekyll-diagram-with-mermaid/ -->
+  {% if page.mermaid %}
+    {% include mermaid.html %}
+  {% endif %}
+
 </head>
