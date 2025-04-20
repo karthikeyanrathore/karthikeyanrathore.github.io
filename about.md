@@ -6,17 +6,38 @@ permalink: /about/
 
 <img src="https://media.giphy.com/media/ODy29v7YAJrck/giphy.gif" width="180" height="100" />
 
-| First Name       	| Karthikeyan                                                                                                                                                                 	|
-|------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| Last Name        	| Rathore                                                                                                                                                                     	|
-| Email            	| karthikerathore (at) gmail (dot) com                                                                                                                                                   	|
-| bachelor degree  	| Computer Science                                                                                                                                                            	|
-| Interest         	| Microservices architecture, Networking, Machine Learning, Devops                                                                                                            	|
-| Connect          	| [LinkedIn](https://www.linkedin.com/in/karthikeyan-rathore/),  [github](https://github.com/karthikeyanrathore/), [youtube](https://www.youtube.com/@karthikeyanrathore1486) 	|
-| gpg key          	| [public-key](https://gist.githubusercontent.com/karthikeyanrathore/0ab93ca9d876a0914825d242ed0d5ee8/raw/82138ff50e962bc573289dd5e41e5662182eb5a2/public-key.txt)            	|
-| fingerprint      	| EBD9 C7F8 37DF A29E 2D41  250C 3B18 E515 5160 8E6B                                                                                                                          	|
+|---|---|
+| First name  | Karthikeyan |
+| Last name  | Rathore |
+| E-Mail Address | karthikerathore (at) gmail (dot) com.          |
+| Master degree (2024 - present) | Artificial Intelligence at [BTU-Cottbus](https://www.b-tu.de/).   <br>  |
+| Bachelor degree (2019 - 2023) | Computer Science |
+| Social Links | [linkedIn](https://www.linkedin.com/in/karthikeyan-rathore/) / [github](https://github.com/karthikeyanrathore/) / [youtube](https://www.youtube.com/@karthikeyanrathore1486) |
+
+<html>
+  <body>
+    short summary git-graph:
+    <pre class="mermaid">
+    %%{init: { 'logLevel': 'debug', 'theme': 'base','themeVariables': {'commitLabelFontSize': '14px', 'gitBranchLabel0': '#ffffff', 'gitBranchLabel1':'#ffffff'}, 'gitGraph': {'showBranches': true, 'showCommitLabel':true,'mainBranchName': 'Academic'}} }%%
+    gitGraph
+        commit id: "class 10th"
+        commit id: "class 11th"
+        commit id: "class 12th"
+        commit id: "Bachelor's degree"
+        branch career
+        checkout career
+        commit id: "software developer - intern"
+        commit id: "software developer - Full Time"
+        commit id: "Research Assistant"
+        checkout Academic
+        merge career
+        commit id: "Master's degree"
+    </pre>
 
 
-<!-- ![Alt Text](https://media.giphy.com/media/ODy29v7YAJrck/giphy.gif) -->
-
-<!-- <img src="https://media.giphy.com/media/ODy29v7YAJrck/giphy.gif" width="180" height="100" /> -->
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({ startOnLoad: true });
+    </script>
+  </body>
+</html>
