@@ -14,6 +14,8 @@ permalink: /about/
 | Bachelor degree (2019 - 2023) | Computer Science |
 | Social Links | [linkedIn](https://www.linkedin.com/in/karthikeyan-rathore/) / [github](https://github.com/karthikeyanrathore/) / [youtube](https://www.youtube.com/@karthikeyanrathore1486) |
 
+
+<!-- 
 <html>
   <body>
     short summary git-graph:
@@ -40,4 +42,4 @@ permalink: /about/
       mermaid.initialize({ startOnLoad: true });
     </script>
   </body>
-</html>
+</html> -->
