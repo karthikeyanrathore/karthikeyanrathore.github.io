@@ -5,3 +5,20 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+.about-photo-container {
+  position: fixed;       /* fixed so it stays in viewport */
+  top: 15%;              /* vertically centered */
+  right: 1100px;           /* distance from the right edge */
+  transform: translateY(-90%); /* perfect vertical centering */
+  z-index: 1000;         /* above other elements */
+}
+
+.about-photo {
+  display: block;       /* makes it a block element */
+  // margin: 0 auto 20px;  /* centers image and adds space below */
+  width: 180px;         /* adjust size */
+  height: auto;
+  // border-radius: 50%;   /* makes it circular */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}

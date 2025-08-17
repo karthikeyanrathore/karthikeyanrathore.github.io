@@ -1,45 +1,21 @@
 ---
 layout: page
-title: About 
+title: About
 permalink: /about/
----
+--- 
 
-<img src="https://media.giphy.com/media/ODy29v7YAJrck/giphy.gif" width="180" height="100" />
+<!-- <div class="about-photo-container"> -->
+  <img src="/assets/photo.jpeg" alt="Karthikeyan Rathore" class="about-photo">
+<!-- </div> -->
+<br>
+Hi, I’m Karthikeyan Rathore. I’m currently pursuing a <b>Master’s in Artificial Intelligence at Brandenburg University of Technology in Germany</b>. Before this, I worked as a <b>Software Developer at MicroSec</b>, where I designed and implemented IoT security solutions—ranging from certificate management systems to scalable APIs. Later, I joined <b>IIT Delhi as a Research Assistant</b>, where I worked on deep learning models for facial recognition and explored efficient methods for storing embeddings.
 
-|---|---|
-| First name  | Karthikeyan |
-| Last name  | Rathore |
-| E-Mail Address | karthikerathore (at) gmail (dot) com.          |
-| Master degree (2024 - present) | Artificial Intelligence at [BTU-Cottbus](https://www.b-tu.de/).   <br>  |
-| Bachelor degree (2019 - 2023) | Computer Science |
-| Social Links | [linkedIn](https://www.linkedin.com/in/karthikeyan-rathore/) / [github](https://github.com/karthikeyanrathore/) / [youtube](https://www.youtube.com/@karthikeyanrathore1486) |
+I enjoy working at the intersection of software engineering and AI—whether it’s building reliable backend systems, deploying solutions in the cloud, or experimenting with frameworks like TensorFlow and PyTorch. My technical background spans Python, C++, Flask, Django REST, AWS, and more, but I’m always eager to explore new tools and approaches.
 
+Outside of work and studies, you’ll often find me cycling, swimming, or exploring new ideas that challenge me to grow as both a developer and a person.
 
-<!-- 
-<html>
-  <body>
-    short summary git-graph:
-    <pre class="mermaid">
-    %%{init: { 'logLevel': 'debug', 'theme': 'base','themeVariables': {'commitLabelFontSize': '14px', 'gitBranchLabel0': '#ffffff', 'gitBranchLabel1':'#ffffff'}, 'gitGraph': {'showBranches': true, 'showCommitLabel':true,'mainBranchName': 'Academic'}} }%%
-    gitGraph
-        commit id: "class 10th"
-        commit id: "class 11th"
-        commit id: "class 12th"
-        commit id: "Bachelor's degree"
-        branch career
-        checkout career
-        commit id: "software developer - intern"
-        commit id: "software developer - Full Time"
-        commit id: "Research Assistant"
-        checkout Academic
-        merge career
-        commit id: "Master's degree"
-    </pre>
+## Socials
+- [github](https://github.com/karthikeyanrathore)
+- [linkedin](https://www.linkedin.com/in/karthikeyan-rathore/)
+- [youtube](https://www.youtube.com/@karthikeyanrathore1486)
 
-
-    <script type="module">
-      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-      mermaid.initialize({ startOnLoad: true });
-    </script>
-  </body>
-</html> -->
