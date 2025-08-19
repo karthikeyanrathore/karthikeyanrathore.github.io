@@ -9,3 +9,6 @@ layout: default
 > "The only way to do great work is to love what you do."
 ~ Steve Jobs
 
+> Spending 10,000 hours on deliberate practice in any area will make you an expert
+~ Andrej Karpathy
+
