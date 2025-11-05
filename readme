@@ -1,0 +1,13 @@
+	docker run -t -d --rm --name newblog --volume=/Users/vagrant/karthikeyanrathore.github.io:/srv/jekyll -p 4000:4000 -it osvik/jekyll-apple-silicon:v4.2.0.b2
+  555  docker exec 22853dc43f1c sh
+  556  docker exec -it 22853dc43f1c sh
+  557  docker exec -it 22853dc43f1c sh
+  558  docker ps
+  559  docker container 22853dc43f1c reload
+  560  docker container 22853dc43f1c restart
+  562  docker exec -it 22853dc43f1c bash
+
+  After you have entered the container shell
+  cd srv/jekyll && bundle update && bundle install && bundle clean --force
+  jekyll server -w --force_polling -H 0.0.0.0
+

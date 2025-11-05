@@ -1,35 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <img src="/assets/branch.jpg" class="branch-img">
-
-<style>
-.branch-img {
-  position: fixed;
-  /* top: 90; */
-  left: 0;
-  height: 80%;   /* full height */
-  width: auto;
-  height: 700px;
-  z-index: -9;
-  opacity: 0.8;   /* make it subtle */
-}
-</style>
-
-
   {% include head.html %}
-
   <body>
-
     {% include header.html %}
-
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
-
     {% include footer.html %}
-
   </body>
-
 </html>
