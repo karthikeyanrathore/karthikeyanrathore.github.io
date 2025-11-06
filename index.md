@@ -2,7 +2,7 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default
+layout: home 
 ---
 
 
@@ -12,7 +12,7 @@ I build websites, train neural network models and experiment with LLM models.
 <br/>
 > Always learning, always building, always striving to make a difference
 
-I'm a strong beleiver of [David Deutsch - The Fun Criterion](https://www.youtube.com/watch?v=idvGlr0aT3c)
+I'm a strong believer of [David Deutsch - The Fun Criterion](https://www.youtube.com/watch?v=idvGlr0aT3c)
 
 
 <br/>

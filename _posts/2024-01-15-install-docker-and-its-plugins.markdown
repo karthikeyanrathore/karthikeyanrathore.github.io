@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "install-docker-and-its-plugins"
+title: "install docker and its plugins"
 date:   2024-01-15
-categories: topic 
+categories: help 
 ---
 
 Steps to install docker and it's plugin. There are various ways to do so i'll do the bash script way.
