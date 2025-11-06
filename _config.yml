@@ -41,7 +41,8 @@ minima:
     - title: twitter site
       icon: linkedin
       url: "https://www.linkedin.com/in/karthikeyan-rathore/"
-		- title: youtube site
-			icon: youtube
-			url: "https://www.youtube.com/@karthikeyanrathore1486"
+    - title: youtube site
+      icon: youtube
+      url: "https://www.youtube.com/@karthikeyanrathore1486"
+
 
