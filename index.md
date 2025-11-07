@@ -20,6 +20,9 @@ I'm a strong believer of [David Deutsch - The Fun Criterion](https://www.youtube
 - MacBook Air 13" M1 (macOS 15.0.1) - current workstation
 - Lenovo IdeaPad Yoga 13 13.3-Inch (Ubuntu 20.04.6 LTS (Focal Fossa)) - prev workstation
 - Monitor: ASUS ProArt PA248QV
+- WH-CH720N Wireless Headphones, Bose QuietComfort 35 (Series II)
+- HyperX Pulsefire Haste wired mouse
+- Keyboard: rapoo E9600m Wireless
 - Docker, Docker Compose, k8s
 - Editor: VS Code
 - [.screenrc](https://github.com/karthikeyanrathore/configuration/blob/master/.screenrc)
