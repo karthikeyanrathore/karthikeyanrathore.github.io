@@ -12,6 +12,6 @@ permalink: /quotes/
   Now all we do is put our hand in the next guy’s pocket. <br/>
   Frank Sobotka – The Wire
 
-
-
+> Question: "What's a fashion trend you regret participating in?" <br/>
+  Ye: "Life"
 
