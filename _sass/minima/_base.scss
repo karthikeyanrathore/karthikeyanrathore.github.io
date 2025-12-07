@@ -140,8 +140,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $brand-color;
-  border-left: 4px solid $border-color-01;
+  color: black;
+  border-left: 4px solid blue;
   padding-left: $spacing-unit * .5;
   @include relative-font-size(1.05);
   font-style: italic;

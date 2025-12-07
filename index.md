@@ -7,15 +7,11 @@ layout: home
 
 
 ## Hello, I'm Karthikeyan Rathore
-I build websites, train neural network models and experiment with LLM models.
+I build websites, train neural network models.
 
-<br/>
 > Always learning, always building, always striving to make a difference
 
-I'm a strong believer of [David Deutsch - The Fun Criterion](https://www.youtube.com/watch?v=idvGlr0aT3c)
 
-
-<br/>
 ### Tools
 - MacBook Air 13" M1 (macOS 15.0.1) - current workstation
 - Lenovo IdeaPad Yoga 13 13.3-Inch (Ubuntu 20.04.6 LTS (Focal Fossa)) - prev workstation
