@@ -35,6 +35,9 @@ plugins:
 
 
 minima:
+  nav_pages:
+    - about.md
+    - blog.html
   social_links:
     - title: github site
       icon: github
@@ -45,4 +48,3 @@ minima:
     - title: youtube site
       icon: youtube
       url: "https://www.youtube.com/@karthikeyanrathore1486"
-
