@@ -11,7 +11,6 @@ I build websites, train neural network models.
 
 > Always learning, always building, always striving to make a difference
 
-
 ### Tools
 - MacBook Air 13" M1 (macOS 15.0.1) - current workstation
 - Lenovo IdeaPad Yoga 13 13.3-Inch (Ubuntu 20.04.6 LTS (Focal Fossa)) - prev workstation
@@ -23,7 +22,3 @@ I build websites, train neural network models.
 - Editor: VS Code
 - [.screenrc](https://github.com/karthikeyanrathore/configuration/blob/master/.screenrc)
 - [.tmux.conf](https://github.com/karthikeyanrathore/configuration/blob/master/.tmux.conf)
-
-
-
-
