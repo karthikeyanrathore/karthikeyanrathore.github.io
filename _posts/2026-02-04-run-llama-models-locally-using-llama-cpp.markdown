@@ -68,3 +68,46 @@ For a very small chat demo, you can also try:
 ```
 
 That is enough to get a local LLM running fully on your machine, with no data sent to external services.
+
+## 4. What is a quantized model?
+
+Most GGUF files you download (like `Q4_K_M`, `Q5_K_M`, etc.) are *quantized* models.
+
+- Normal models store weights as 16- or 32-bit floats.
+- Quantized models store them as lower-bit integers (2, 3, 4, 5, 8-bit) plus scales.
+
+This makes the file much smaller, uses less RAM/VRAM, and is usually a bit faster, at the cost of a small drop in quality. `Q4_K_M` is a good default trade-off.
+
+## 5. Convert and quantize your own HF model to GGUF
+
+If you have a Hugging Face model (either on the Hub or as a local directory), you can convert and quantize it yourself with `llama.cpp`.
+
+One-time Python setup (inside `llama.cpp`):
+
+```bash
+cd llama.cpp
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Example: convert a HF model repo to GGUF fp16 and then quantize to `Q4_K_M`:
+
+```bash
+cd llama.cpp
+source .venv/bin/activate
+
+# 1) Convert HF model -> GGUF fp16
+python convert_hf_to_gguf.py \
+  HF_MODEL_ID_OR_LOCAL_PATH \
+  --outfile models/my-model-f16.gguf \
+  --model-type llama
+
+# 2) Quantize GGUF fp16 -> GGUF Q4_K_M
+./build/bin/llama-quantize \
+  models/my-model-f16.gguf \
+  models/my-model-Q4_K_M.gguf \
+  Q4_K_M
+```
+
+You can then run `models/my-model-Q4_K_M.gguf` with `llama-cli` the same way as shown above.
