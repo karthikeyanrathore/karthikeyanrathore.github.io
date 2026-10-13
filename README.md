@@ -1,7 +1,3 @@
-# ML Lab – Personal Site
-
-Source for my personal site "ML Lab", built with Jekyll and the Minima theme.
-
 ## Run locally (Docker, Apple Silicon)
 
 With Docker Desktop running, from the project root:
