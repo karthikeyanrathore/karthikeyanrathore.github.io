@@ -1,55 +1,21 @@
 # ML Lab – Personal Site
 
-This repository contains the source for my personal site "ML Lab", built with Jekyll and the Minima theme.
+Source for my personal site "ML Lab", built with Jekyll and the Minima theme.
 
-## Run locally with Docker (Apple Silicon)
+## Run locally (Docker, Apple Silicon)
 
-On an Apple Silicon Mac, you can run the site using the provided helper script:
+With Docker Desktop running, from the project root:
 
-1. Make sure Docker Desktop is running.
-2. From the project root, run:
+```bash
+bash docker-macm1.sh
+```
 
-   ```bash
-   bash docker-macm1.sh
-   ```
+Then open http://localhost:4000/.
 
-3. Open the site in your browser at:
+## Blog Posts
 
-   ```text
-   http://localhost:4000/
-   ```
-
-## Manual Docker usage
-
-If you prefer to run the container manually, this is the basic flow:
-
-1. Start the Jekyll container and mount the repo:
-
-   ```bash
-   docker run -t -d --rm --name newblog \
-     --volume="$PWD:/srv/jekyll" \
-     -p 4000:4000 \
-     -it osvik/jekyll-apple-silicon:v4.2.0.b2
-   ```
-
-2. Enter the container shell:
-
-   ```bash
-   docker exec -it newblog bash
-   ```
-
-3. Inside the container, install dependencies and run Jekyll:
-
-   ```bash
-   cd /srv/jekyll
-   bundle update
-   bundle install
-   bundle clean --force
-   jekyll serve -H 0.0.0.0 --watch --drafts
-   ```
-
-4. Visit the site in your browser:
-
-   ```text
-   http://localhost:4000/
-   ```
+- [install docker and its plugins](/_posts/2024-01-15-install-docker-and-its-plugins.markdown) (2024-01-15)
+- [Your bluetooth might be affecting your wifi speed](/_posts/2025-06-20-Your-bluetooth-might-be-affecting-your-wifi-speed.markdown) (2025-06-20)
+- [run llama models locally using llama.cpp](/_posts/2026-02-04-run-llama-models-locally-using-llama-cpp.markdown) (2026-02-04)
+- [qwen 3.5 0.8b feels huge on an m1 8gb](/_posts/2026-03-03-qwen-0-8b-local-m1-8gb.markdown) (2026-03-03)
+- [a time for everything: ecclesiastes 3 and turn! turn! turn!](/_posts/2026-10-13-a-time-for-everything.markdown) (2026-10-13)
